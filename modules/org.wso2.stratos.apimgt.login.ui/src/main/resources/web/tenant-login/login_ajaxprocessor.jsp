@@ -44,7 +44,7 @@ limitations under the License.
 
 <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-    <title>WSO2 Stratos API Manager</title>
+    <title>ThinkIAM API Manager</title>
     <link href="../admin/css/global.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="../styles/css/main.css" rel="stylesheet" type="text/css" media="all"/>
 
@@ -83,7 +83,7 @@ limitations under the License.
     String tip = "";
     if(tenantdomain == null){
         tenantdomain = "";
-        tip = "Enter the username in the format: user  name@yourdomain, Example: foo@abc.com";
+        tip = "Enter the username in the format: user  name@yourdomain, Example: foo@thinkiam.in";
     }
     else{
         tenantdomain = "@" + tenantdomain;
@@ -144,7 +144,7 @@ limitations under the License.
 
 	<div id="login-content">
 					<div class="main-text">
-						The WSO2 API Manager, supporting management of all aspects of an API and its life cycle, delivered as a multi-tenant, elastically scaling, metered platform
+						The ThinkIAM API Manager, supporting management of all aspects of an API and its life cycle, delivered as a multi-tenant, elastically scaling, metered platform
 					</div>
 					<div class="clear"></div>
 					
